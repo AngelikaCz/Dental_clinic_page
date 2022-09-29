@@ -30,3 +30,38 @@ header {
 .main-text {
   margin: 7rem 0;
 }
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  transition: all 0.3s ease-out;
+}
+.clinic-photo,
+.map {
+  max-height: 500px;
+  margin-top: 40px;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.address {
+  font-size: 13px;
+}
+
+.divider {
+  background-color: var(--accent-color);
+  padding: 10px;
+}
