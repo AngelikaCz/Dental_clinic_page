@@ -65,3 +65,53 @@ header {
   background-color: var(--accent-color);
   padding: 10px;
 }
+
+.doctor-slider {
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctors {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.controller {
+  display: flex;
+  justify-content: space-between;
+}
+
+.previous,
+.next {
+  color: var(--primary-color);
+  font-size: 1 rem;
+  background-color: var(--accent-color);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.7s ease-in-out;
+  border: 3px solid var(--accent-color);
+  box-shadow: 0 0 5px #bbbbbb;
+}
+
+.previous:hover,
+.next:hover {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+}
+
+.slide-img {
+  width: 100%;
+  height: 275px;
+  border: 1px solid black;
+}
+
+@media (max-width: 1600px) {
+  .doctors {
+    width: 100%;
+  }
+}
