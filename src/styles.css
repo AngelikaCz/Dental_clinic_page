@@ -20,7 +20,12 @@ h2 {
   font-weight: 300;
 }
 
-.controller {
+.slide p,
+h4 {
+  text-align: center;
+}
+
+.doctors-heading {
   text-align: center;
   margin-top: 15px;
 }
@@ -72,6 +77,11 @@ header {
   padding: 10px;
 }
 
+.controller {
+  display: flex;
+  justify-content: center;
+}
+
 .doctor-slider {
   height: 500px;
   display: flex;
@@ -96,6 +106,7 @@ header {
   transition: 0.7s ease-in-out;
   border: 3px solid var(--accent-color);
   box-shadow: 0 0 5px #bbbbbb;
+  margin: auto 10px;
 }
 
 .previous:hover,
@@ -105,13 +116,15 @@ header {
 }
 
 .slide-img {
-  width: 200px;
+  width: 45%;
   height: 275px;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-left: 135px;
+  border: 2px solid var(--accent-color);
+  box-shadow: 10px 10px var(--accent-color);
 }
 
 .img-1 {
@@ -131,6 +144,10 @@ header {
 
 .img-5 {
   background-image: url(/images/doctor_Mateusz.jpg);
+}
+
+.tns-liveregion {
+  display: none;
 }
 
 @media (max-width: 1600px) {
