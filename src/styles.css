@@ -19,6 +19,12 @@ h2 {
   font-size: 2.5rem;
   font-weight: 300;
 }
+
+.controller {
+  text-align: center;
+  margin-top: 15px;
+}
+
 header {
   background-image: url(/images/main-photo.webp);
   background-repeat: no-repeat;
@@ -68,7 +74,6 @@ header {
 
 .doctor-slider {
   height: 500px;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,11 +82,6 @@ header {
 .doctors {
   max-width: 1500px;
   margin: auto;
-}
-
-.controller {
-  display: flex;
-  justify-content: space-between;
 }
 
 .previous,
@@ -105,9 +105,32 @@ header {
 }
 
 .slide-img {
-  width: 100%;
+  width: 200px;
   height: 275px;
-  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-1 {
+  background-image: url(/images/doctor_Andrzej.jpg);
+}
+
+.img-2 {
+  background-image: url(/images/doctor_Jadwiga.jpg);
+}
+.img-3 {
+  background-image: url(/images/doctor_Justyna.jpeg);
+}
+
+.img-4 {
+  background-image: url(/images/doctor_Krzysztof.jpg);
+}
+
+.img-5 {
+  background-image: url(/images/doctor_Mateusz.jpg);
 }
 
 @media (max-width: 1600px) {
