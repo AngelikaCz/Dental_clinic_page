@@ -21,11 +21,13 @@ h2 {
 }
 
 .slide p,
-h4 {
+h4,
+h3 {
   text-align: center;
 }
 
-.doctors-heading {
+.doctors-heading,
+h3 {
   text-align: center;
   margin-top: 15px;
 }
@@ -80,6 +82,7 @@ header {
 .controller {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
 .doctor-slider {
@@ -148,6 +151,20 @@ header {
 
 .tns-liveregion {
   display: none;
+}
+
+.icon {
+  max-width: 70px;
+}
+
+.iconbox {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
 }
 
 @media (max-width: 1600px) {
