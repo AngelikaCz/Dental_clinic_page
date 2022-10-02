@@ -174,7 +174,8 @@ header {
 }
 
 .testimonial {
-  padding: 15px;
+  padding: 30px;
+  margin: 0 30px;
 }
 
 @media (max-width: 1600px) {
