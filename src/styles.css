@@ -178,6 +178,20 @@ header {
   margin: 0 30px;
 }
 
+.footer-links {
+  display: block;
+  color: var(--secondary-color);
+}
+
+.footer-links:hover,
+.email:hover {
+  color: var(--accent-color);
+}
+
+.email {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 1600px) {
   .doctors {
     width: 100%;
