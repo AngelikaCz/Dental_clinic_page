@@ -32,6 +32,13 @@ h3 {
   margin-top: 15px;
 }
 
+.doctor {
+  max-width: 20%;
+  margin: auto;
+  border: 2px solid var(--accent-color);
+  box-shadow: 10px 10px var(--accent-color);
+}
+
 header {
   background-image: url(/images/cover-photo.jpg);
   background-repeat: no-repeat;
@@ -80,80 +87,6 @@ header {
   margin: 30px 0;
 }
 
-.controller {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.doctor-slider {
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.doctors {
-  max-width: 1500px;
-  margin: auto;
-}
-
-.previous,
-.next {
-  color: var(--primary-color);
-  font-size: 1 rem;
-  background-color: var(--accent-color);
-  padding: 5px;
-  cursor: pointer;
-  border-radius: 5px;
-  outline: none;
-  transition: 0.7s ease-in-out;
-  border: 3px solid var(--accent-color);
-  box-shadow: 0 0 5px #bbbbbb;
-  margin: auto 10px;
-}
-
-.previous:hover,
-.next:hover {
-  background-color: var(--primary-color);
-  color: var(--accent-color);
-}
-
-.slide-img {
-  width: 45%;
-  height: 275px;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  margin-left: 135px;
-  border: 2px solid var(--accent-color);
-  box-shadow: 10px 10px var(--accent-color);
-}
-
-.img-1 {
-  background-image: url(/images/doctor_Andrzej.jpg);
-}
-
-.img-2 {
-  background-image: url(/images/doctor_Jadwiga.jpg);
-}
-.img-3 {
-  background-image: url(/images/doctor_Justyna.jpeg);
-}
-
-.img-4 {
-  background-image: url(/images/doctor_Krzysztof.jpg);
-}
-
-.img-5 {
-  background-image: url(/images/doctor_Mateusz.jpg);
-}
-
-.tns-liveregion {
-  display: none;
-}
-
 .icon {
   max-width: 70px;
 }
@@ -171,6 +104,21 @@ header {
 .customer {
   padding: 40px 40px 0 40px;
   max-height: 500px;
+}
+
+.carousel h5,
+.carousel p {
+  color: var(--secondary-color);
+}
+
+.carousel p {
+  font-size: 10px;
+}
+
+.doctor-caption {
+  background-color: var(--primary-color);
+  max-width: 300px;
+  margin: auto;
 }
 
 .testimonial {

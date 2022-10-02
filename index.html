@@ -36,11 +36,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-    <link
-      rel="styleshet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
-    />
-
     <link rel="stylesheet" href="src/styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
   </head>
@@ -129,75 +124,112 @@
         </div>
       </div>
       <div class="divider"></div>
-      <section id="slider">
-        <div class="container-doctors doctors" id="doctors">
-          <div class="sub-container">
-            <div class="slider-wrapper">
-              <div class="doctors-heading"><h3>Our Doctors</h3></div>
-              <div class="doctor-slider">
-                <div>
-                  <div class="slide">
-                    <div class="slide-img img-1"></div>
-                    <br />
-                    <div>
-                      <h4>dr Andrzej Domagała</h4>
-                      <p>Lorem ipsum</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="slide">
-                    <div class="slide-img img-2"></div>
-                    <br />
-                    <div>
-                      <h4>dr Jadwiga Urban</h4>
-                      <p>Lorem ipsum</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="slide">
-                    <div class="slide-img img-3"></div>
-                    <br />
-                    <div>
-                      <h4>dr Justyna Koleczyńska</h4>
-                      <p>Lorem ipsum</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="slide">
-                    <div class="slide-img img-4"></div>
-                    <br />
-                    <div>
-                      <h4>dr Krzysztof Rysa</h4>
-                      <p>Lorem ipsum</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="slide">
-                    <div class="slide-img img-5"></div>
-                    <br />
-                    <div>
-                      <h4>dr Mateusz Pyza</h4>
-                      <p>Lorem ipsum</p>
-                    </div>
-                  </div>
-                </div>
+      <div class="doctors-heading"><h3>Our Doctors</h3></div>
+      <div class="bd-example carousel">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleCaptions"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/images/doctor_Andrzej.jpg"
+                class="d-block w-100 doctor"
+                alt="Doctor Andrzej Domagała"
+              />
+              <div class="carousel-caption d-none d-md-block doctor-caption">
+                <h5>dr Andrzej Domagała</h5>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
               </div>
-              <div id="controls" class="controller">
-                <button class="previous">
-                  <i class="fa-sharp fa-solid fa-angle-left"></i>
-                </button>
-                <button class="next">
-                  <i class="fa-sharp fa-solid fa-angle-right"></i>
-                </button>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/doctor_Jadwiga.jpg"
+                class="d-block w-100 doctor"
+                alt="Doctor Jadwiga Urban"
+              />
+              <div class="carousel-caption d-none d-md-block doctor-caption">
+                <h5>dr Jadwiga Urban</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/doctor_Justyna.jpeg"
+                class="d-block w-100 doctor"
+                alt="Doctor Justyna Koleczyńska"
+              />
+              <div class="carousel-caption d-none d-md-block doctor-caption">
+                <h5>dr Justyna Koleczyńska</h5>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/doctor_Krzysztof.jpg"
+                class="d-block w-100 doctor"
+                alt="Doctor Krzysztof Rysa"
+              />
+              <div class="carousel-caption d-none d-md-block doctor-caption">
+                <h5>dr Krzysztof Rysa</h5>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/doctor_Mateusz.jpg"
+                class="d-block w-100 doctor"
+                alt="Doctor Mateusz Pyza"
+              />
+              <div class="carousel-caption d-none d-md-block doctor-caption">
+                <h5>dr Mateusz Pyza</h5>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
               </div>
             </div>
           </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-      </section>
+      </div>
       <div class="divider"></div>
       <div class="services">
         <h3>Our Services</h3>
@@ -331,7 +363,7 @@
               >Invisalign</a
             >
           </div>
-          <div class="col-md-4 contact-section">
+          <div class="col-md-4 contact-sections">
             <h5 id="contact">Contact us</h5>
             <p>Phone number: 000000000</p>
             <p>
