@@ -45,7 +45,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <button
         class="navbar-toggler"
         type="button"
@@ -64,7 +64,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#doctors">Doctors</a>
@@ -101,7 +101,7 @@
             />
           </div>
           <div class="col-md-4">
-            <h3 class="text-center">Dentis - Your Dental Clinic</h3>
+            <h3 class="text-center" id="about">Dentis - Your Dental Clinic</h3>
             <p class="text-center">
               Whether you need a filling, a smile makeover, dental implants, a
               root canal, a full-mouth re-construction, or just a cleaning and
@@ -307,7 +307,7 @@
             <img
               src="/images/Dentis_logo_small.png"
               alt="dentis logo"
-              class="logo"
+              class="footer-logo logo"
             />
           </div>
           <div class="col-md-4">
@@ -331,8 +331,8 @@
               >Invisalign</a
             >
           </div>
-          <div class="col-md-4">
-            <h5>Contact us</h5>
+          <div class="col-md-4 contact-section">
+            <h5 id="contact">Contact us</h5>
             <p>Phone number: 000000000</p>
             <p>
               Email:<a href="mailto:dentis@gmail.com" class="email">
